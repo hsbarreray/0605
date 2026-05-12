@@ -1,21 +1,14 @@
+package polimorfismo;
+
 public abstract class Poligono {
 
-    // Encapsulamiento
-    protected int numeroLados;
+    protected String nombre;
 
-    // Constructor
-    public Poligono(int numeroLados) {
-        this.numeroLados = numeroLados;
+    public Poligono(String nombre) {
+        this.nombre = nombre;
     }
 
-    // Getter
-    public int getNumeroLados() {
-        return numeroLados;
-    }
+    public abstract double calcularArea();
 
-    // Método abstracto
-    public abstract double area();
-
-    // Método abstracto
     public abstract void mostrarDatos();
 }
