@@ -19,7 +19,7 @@ public class Rectangulo extends Poligono {
     @Override
     public void mostrarDatos() {
 
-        System.out.println("Tipo: " + getNombre());
+        System.out.println("Tipo: " + nombre);
         System.out.println("Base: " + base);
         System.out.println("Altura: " + altura);
         System.out.println("Área: " + calcularArea());
